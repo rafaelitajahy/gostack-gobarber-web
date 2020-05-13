@@ -60,6 +60,15 @@ export const Content = styled.div`
       color: ${shade(0.2, '#ff9000')};
     }
   }
+
+  @media (min-height: 550px) {
+    form {
+      margin: 60px 0;
+      a {
+        color: #ff9000;
+      }
+    }
+  }
 `;
 
 export const Background = styled.div`
